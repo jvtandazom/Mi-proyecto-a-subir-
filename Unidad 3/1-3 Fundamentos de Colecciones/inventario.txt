@@ -1,0 +1,4 @@
+3,durazno,50,0.6
+4,fresa,30,0.2
+1,manzana,60,0.3
+2,naranja,30,0.4
