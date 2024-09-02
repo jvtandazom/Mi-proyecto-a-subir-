@@ -1,0 +1,2 @@
+ID: 1, Nombre: Manzana, Cantidad: 60, Precio: 0.3
+ID: 2, Nombre: Naranja, Cantidad: 30, Precio: 0.4
