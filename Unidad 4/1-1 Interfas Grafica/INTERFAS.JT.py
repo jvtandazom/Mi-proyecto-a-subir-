@@ -1,3 +1,5 @@
+#Tarea Semana 13
+
 import tkinter as tk
 from tkinter import messagebox
 
@@ -40,3 +42,5 @@ boton_limpiar.pack(pady=5)
 
 # Ejecutar la ventana
 ventana.mainloop()
+
+#jONATHAN Tandazo
