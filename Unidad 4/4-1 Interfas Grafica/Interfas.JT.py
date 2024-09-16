@@ -1,3 +1,5 @@
+# Tarea Semana 13
+
 import tkinter as tk
 from tkinter import messagebox
 
@@ -19,24 +21,26 @@ ventana = tk.Tk()
 ventana.title("Aplicación GUI Básica")
 
 # Etiqueta
-label_texto = tk.Label(ventana, text="Ingrese información:", bg="red", fg="black")
+label_texto = tk.Label(ventana, text="Ingrese información:")
 label_texto.pack(pady=5)
 
 # Campo de texto
-entry_texto = tk.Entry(ventana, width=40, bg="red", fg="black")
+entry_texto = tk.Entry(ventana, width=40)
 entry_texto.pack(pady=5)
 
 # Botón para agregar información
-boton_agregar = tk.Button(ventana, text="Agregar", command=agregar_informacion, bg="red", fg="black")
+boton_agregar = tk.Button(ventana, text="Agregar", command=agregar_informacion)
 boton_agregar.pack(pady=5)
 
 # Lista para mostrar los datos agregados
-lista_datos = tk.Listbox(ventana, width=70, height=20, bg="red", fg="black")
+lista_datos = tk.Listbox(ventana, width=50, height=10)
 lista_datos.pack(pady=5)
 
 # Botón para limpiar la lista
-boton_limpiar = tk.Button(ventana, text="Limpiar", command=limpiar_informacion, bg="red", fg="black")
+boton_limpiar = tk.Button(ventana, text="Limpiar", command=limpiar_informacion)
 boton_limpiar.pack(pady=5)
 
 # Ejecutar la ventana
 ventana.mainloop()
+
+#NOMBRE:JONATHAN TANDAZO
