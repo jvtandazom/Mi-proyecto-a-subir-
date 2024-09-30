@@ -116,5 +116,4 @@ btn_salir.grid(row=0, column=2, padx=10)
 
 # Iniciar el loop de la ventana principal
 root.mainloop()
-
 # JONATHAN TANDAZO
